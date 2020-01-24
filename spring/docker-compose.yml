@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hello-world-service:
+    build: .
+    container-name: hello-world-service
+    ports:
+      - 80:8080

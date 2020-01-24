@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: testdb
       MYSQL_USER: sekthor
       MYSQL_PASSWORD: password
-    port:
+    ports:
       - 3306:3306
     volumes:
       - mysql_db: /var/lib/mysql
